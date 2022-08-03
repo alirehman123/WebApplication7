@@ -15,7 +15,7 @@ namespace WebApplication7.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("Hello World");
         }
 
         public IActionResult Privacy()
